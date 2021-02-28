@@ -98,6 +98,7 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 a:hover,
@@ -1660,7 +1661,7 @@ body.menu-is-open {
   background-color: transparent;
   position: absolute;
   top: 0;
-  margin-top: 21px;
+  /* margin-top: 21px; */
 }
 .s-header.moved {
   background-color: white;
@@ -4311,3 +4312,12 @@ td.minw {
 .rep {
   margin-left: 3em;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  opacity: .95;
+}
+
+

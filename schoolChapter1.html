@@ -18,6 +18,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+       
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script>
+
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/vendor.css" />
     <link rel="stylesheet" href="./css/main.css" />
@@ -57,7 +62,7 @@
         </div>
     </div>
 
-    <header class="s-header">
+    <header class="s-header sticky">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo/resized/IBCOL HK Horizontal.png" alt="IBCOL: International Blockchain Olympiad" />
@@ -398,12 +403,20 @@
 
     <!-- Java Script
         ================================================== -->
+        
+        <script>
+            $('accordion').click(function () {
+                $(this).find('i').toggleClass('fas fa-plus fas fa-minus')
+            }); 
+        </script>
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/plugins.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/function.js"></script>
     <script src="./js/openInNewTab.js"></script>
     <script src="./js/clickToEnlarge.js"></script>
+    
+    
 </body>
 
 </html>

@@ -46,14 +46,14 @@
         </div>
     </div>
 
-    <header class="s-header">
+    <header class="s-header sticky">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo/resized/IBCOL HK Horizontal.png"
                     alt="IBCOL: International Blockchain Olympiad" />
             </a>
         </div>
-        <div class="desktop-nav">
+        <class class="desktop-nav">
             <ul class="nav_list">
                 <li class="dropdown ">
                     <a class="dropbtn pageAnchorColor" href="./index.html">About</a>
@@ -417,12 +417,31 @@
         </div>
     </footer>
 
-    <!-- Java Script
-        ================================================== -->
+    <!-- Java Script ================================================== -->
+
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos < currentScrollPos) {
+                document.getElementById("NavBar-hidenSeek").style.top = "40px";
+            } else {
+                document.getElementById("NavBar-hidenSeek").style.top = "-50px";
+                Element.classList.add("d-none");
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/plugins.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/function.js"></script>
+
+
+    
     <script>
         /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
