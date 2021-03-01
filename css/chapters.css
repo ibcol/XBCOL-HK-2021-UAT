@@ -16,8 +16,9 @@
 }
 
 .accordion-collapse {
-  /* border: solid rgba(0,0,0,.125); */
-  border-width: 0px 1px 1px;
+  border: solid rgba(0,0,0,.125);
+  
+  border-width: 0px 0px 2px;
 }
 
 .headerText {
@@ -42,7 +43,7 @@
 
 .underHeaderText2 {
   font-size: 1.2rem;
-  color: darkred;
+  /* color: darkred; */
 }
 
 .footerText {
@@ -53,15 +54,17 @@
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100% !important;
+   border-bottom: 1px solid rgb(230, 227, 227) ;
 }
 
 .accordion-button {
   background-color: #fff;
   font-size: 1.4rem;
-  border-color: #fff;
+  border-color: rgb(255, 254, 254);
   /* margin-bottom: 0px; */
   /* box-shadow: 2px 2px 1px #c7c7c7; */
   width: 100% !important;
+ 
 }
 
 .accordion-body {

@@ -73,7 +73,7 @@ body {
 
 body {
   background: #ffffff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif !important;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -555,8 +555,8 @@ form,
 .video-container,
 .ss-custom-select {
   margin-bottom: 3rem;
-  font-size: small;
-  /* font-weight: bold; */
+  font-size: 13px;
+  font-weight: 500;
 }
 
 /* ===================================================================
@@ -569,7 +569,7 @@ form,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #151515;
+  background: #afadad;
   z-index: 800;
   height: 100vh;
   width: 100%;
@@ -1662,6 +1662,7 @@ body.menu-is-open {
   position: absolute;
   top: 0;
   /* margin-top: 21px; */
+  
 }
 .s-header.moved {
   background-color: white;
@@ -1693,8 +1694,9 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  height: 50px;
-  width: 305px
+  height: 45px;
+  width: 285px;
+  margin-left: 5px;
 }
 
 .header-logo.subpage img {
@@ -1985,7 +1987,9 @@ body.menu-is-open {
 .desktop-nav .nav_list li {
   float: left;
   font-size: 12px;
-  margin-right: 22px;
+  margin-right: 10px;
+  padding-left: 10px;
+    padding-right: 10px
   
 }
 .desktop-nav .nav_list li a {
@@ -2053,6 +2057,7 @@ body.menu-is-open {
   .s-header {
     height: 90px;
     top: 12px;
+    
   }
 
   .header-nav {
@@ -4116,6 +4121,7 @@ tr.last td {
 }
 .s-section {
   padding-top: 6rem;
+  padding-bottom: 40px;
 }
 .s-section.first {
   padding-top: 18rem;
@@ -4318,6 +4324,7 @@ td.minw {
   width: 100%;
   background-color: #ffffff;
   opacity: .95;
+  z-index: 9999;
 }
 
 
