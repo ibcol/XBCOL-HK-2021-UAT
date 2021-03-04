@@ -964,3 +964,99 @@ ol,
     font-size: 12px !important;
   }
 }
+
+/* ----------------------------------------------- */
+
+.ss-track-header-text-small {
+  font: normal normal medium 22px/27px Montserrat;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #0086ca !important;
+}
+
+.ss-track-header-text {
+  font: normal normal bold 40px/49px Montserrat;
+  margin-top: -7px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #0086ca !important;
+}
+
+.ss-header-spacing {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.ss-mid-hline {
+  height: 2px;
+  width: 135px;
+  background-color: #e3e3e3;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.s-section h2.ss-track-content-title {
+  text-align: left;
+  font: normal normal bold 42px/52px Montserrat !important;
+  letter-spacing: 0px;
+  color: #0086ca !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+.s-section .ss-track-content-text {
+  text-align: left;
+  font: normal normal normal 20px/35px Nunito Sans;
+  letter-spacing: 0px;
+  color: #313131 !important;
+}
+
+.ss-register-btn {
+  border-radius: 10px !important;
+  color: white;
+  background-color: #1484cc;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 500;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.btn.ss-register-btn:hover {
+  color: white;
+  background-color: #1484cc;
+}
+
+.s-section h2.ss-card-title {
+  font-size: 36px !important;
+  line-height: 44px !important;
+  font-family: Montserrat !important;
+  text-align: left;
+  color: black !important;
+}
+
+.ss-card-text {
+  font: normal normal normal 18px/30px Nunito Sans !important;
+  text-align: left;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .s-section h2.ss-track-content-title {
+    font: normal normal bold 36px/42px Montserrat !important;
+  }
+
+  .s-section .ss-track-content-text {
+    font: normal normal normal 17px/30px Nunito Sans;
+  }
+
+  .ss-track-header-text {
+    font: normal normal bold 32px/40px Montserrat;
+  }
+
+  .ss-header-spacing {
+    margin-bottom: 50px;
+  }
+}
+
+/* ----------------------------------------------- */

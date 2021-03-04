@@ -1924,6 +1924,15 @@ body.menu-is-open {
   opacity: 1;
 }
 
+.desktop-nav-link-active {
+  text-decoration: none !important;
+  text-align: center;
+  font: normal normal normal 18px/24px Nunito Sans;
+  letter-spacing: 0px;
+  color: #0086ca !important;
+  opacity: 1;
+}
+
 .desktop-nav-link:hover {
   color: #707070 !important;
   font-weight: bold;
