@@ -1031,7 +1031,7 @@ ol,
   font-size: 36px !important;
   line-height: 44px !important;
   font-family: Montserrat !important;
-  text-align: left;
+  text-align: right !important;
   color: black !important;
 }
 
