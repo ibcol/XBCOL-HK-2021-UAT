@@ -4417,6 +4417,18 @@ td.minw {
   line-height: 30px;
 }
 
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  30% {
+    transform: translateY(15px);
+  }
+  60% {
+    transform: translate(0);
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .home-about__text {
     font-size: 17px;
