@@ -590,9 +590,9 @@ textarea {
   * ## tablets
   * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
-  .row {
+  /* .row {
     width: 90%;
-  }
+  } */
 
   .r70 {
     width: 70%;

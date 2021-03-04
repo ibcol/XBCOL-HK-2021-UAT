@@ -181,7 +181,31 @@ h1,
   letter-spacing: -0.1rem;
 }
 
+.header-small-text {
+  text-align: center;
+  font: normal normal bold 22px/36px Montserrat;
+  letter-spacing: 0px;
+  color: #209dd4;
+}
+
+.header-big-text {
+  text-align: center;
+  font: normal normal bold 48px/58px Montserrat;
+  letter-spacing: 0px;
+  color: #209dd4;
+}
+
 @media only screen and (max-width: 600px) {
+  .header-big-text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .header-small-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
   h1,
   .h1 {
     font-size: 3.3rem;
@@ -1714,7 +1738,7 @@ body.menu-is-open {
   padding: 3.6rem 3rem 3.6rem 6rem;
   height: 100%;
   width: 50%;
-  background: #0c0c0c;
+  background: #209dd4;
   color: rgba(255, 255, 255, 0.25);
   overflow-y: auto;
   overflow-x: hidden;
@@ -2061,12 +2085,16 @@ body.menu-is-open {
   .header-menu-toggle {
     right: 40px;
   }
+
+  #sponsor {
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .s-header {
     height: 90px;
-    top: 12px;
+    /* top: 12px; */
   }
 
   .header-nav {
@@ -2081,7 +2109,8 @@ body.menu-is-open {
 
 @media only screen and (max-width: 400px) {
   .s-header {
-    top: 6px;
+    height: 90px;
+    /* top: 6px; */
   }
 
   .header-logo {
@@ -2117,14 +2146,29 @@ body.menu-is-open {
 
 .hero-section-1 {
   width: 100%;
-  height: 290px;
+  height: 250px;
 }
+
+.scroller-top-positioning {
+  margin-top: 250px;
+}
+
 .hero-section-2 {
   width: 100%;
   min-height: 640px;
   background-image: url("../images/bg-2.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-section-1 {
+    height: 120px;
+  }
+
+  .hero-section-2 {
+    margin-top: -90px;
+  }
 }
 
 .s-home {
@@ -3992,6 +4036,25 @@ footer a {
   }
 }
 
+.footer-contact-us {
+  text-align: left;
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-contact-us {
+    order: 2;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer-socials {
+    order: 3;
+  }
+  .footer-register {
+    order: 1;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .cl-copyright span {
     font-size: 15px;
@@ -4303,9 +4366,9 @@ td.minw {
     width: 60%;
   }
   .header-logo img {
-    height: 65px;
+    height: 42px;
     width: auto;
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
   .icon.number i {
     margin: 30px auto;
@@ -4347,5 +4410,23 @@ td.minw {
   letter-spacing: 0px;
   opacity: 1;
   color: #555555;
+}
+
+.link__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .home-about__text {
+    font-size: 17px;
+  }
+  .home-about__reg_text {
+    font-size: 17px;
+  }
+
+  .link__text {
+    font-size: 12px;
+  }
 }
 /* ---------------------------------------------- */

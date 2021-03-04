@@ -536,10 +536,6 @@ ul.dashed > li:before {
   padding: 26px 50px;
   font-weight: normal;
   text-transform: capitalize;
-  font-size: 26px;
-  padding: 26px 50px;
-  font-weight: normal;
-  text-transform: capitalize;
 }
 
 /* contact */
@@ -680,6 +676,10 @@ ol,
   }
 
   .indexBlueActionBtn {
+    position: absolute;
+    right: -18px;
+    bottom: -20px;
+    border-radius: 8px;
     font-size: 18px;
     padding: 18px 30px;
   }
@@ -770,9 +770,6 @@ ol,
 }
 
 @media only screen and (max-width: 768px) {
-  .posWithLeftBox {
-  }
-
   .containerPd20 {
     margin: auto;
     /* width: 300px; */
@@ -910,24 +907,25 @@ ol,
 }
 
 @media only screen and (max-width: 600px) {
-  .header-logo {
+  /* .header-logo {
     top: 20%;
-  }
+  } */
 
   .w-55 {
     width: 100%;
   }
 }
 @media only screen and (max-width: 550px) {
-  .s-section h2 {
-    font-size: 2rem !important;
-  }
-
   .headerBlueText2 {
     font-size: 2rem !important;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .s-section h2 {
+    font-size: 3rem !important;
+  }
+}
 @media only screen and (min-width: 768px) {
   .toolsImgMedia1 {
     padding: 0px;
